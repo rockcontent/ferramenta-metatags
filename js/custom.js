@@ -207,8 +207,10 @@ $(function() {
 		var check = document.getElementById("ttimage-check").checked;
 		if (check) {
 			$("#ttimage-code").show();
+			$("#ogTwitterimgUserPreview").attr('class', 'img-fluid');
 		} else {
 			$("#ttimage-code").hide();
+			$("#ogTwitterimgUserPreview").attr('class', 'img-thumbnail');
 		}
 	});
 
