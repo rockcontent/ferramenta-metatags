@@ -118,11 +118,13 @@ $(function() {
 
 	$('#ogtitle-input').keyup(function() {
 		$('#ogtitle-user').html($(this).val());
+		$('#tttitle-user').html($(this).val());
 		$('#ogtitle-user-preview').html($(this).val());
 	});
 
 	$('#ogdesc-input').keyup(function() {
 		$('#ogdesc-user').html($(this).val());
+		$('#ttdesc-user').html($(this).val());
 		$('#ogdesc-user-preview').html($(this).val());
 	});
 

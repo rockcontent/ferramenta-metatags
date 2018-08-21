@@ -11,14 +11,18 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="keywords" content="<span id="key-user"></span>"&gt;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="og:type" content="page"&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="og:title" content="<span id="ogtitle-user"></span>"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="og:url" content="<span id="ogurl-user"></span>"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="og:title" content="<span id="ogtitle-user"></span>"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="og:image" content="<span id="ogimage-user"></span>"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="og:description" content="<span id="ogdesc-user"></span>"&gt;
+
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="article:author" content="<span id="ogauthor-user"></span>"&gt;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:card" content="summary<span id="ttimage-code">_large_image</span>"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:site" content="@<span id="ttsite-user"></span>"&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:creator" content="@<span id="ttcreator-user"></span>"&gt;<div id="tagmng-code1">
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:title" content="<span id="tttitle-user"></span>"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:creator" content="@<span id="ttcreator-user"></span>"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:description" content="<span id="ttdesc-user"></span>"&gt;<div id="tagmng-code1">
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Tag Manager --&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;script>
 	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
