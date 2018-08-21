@@ -105,6 +105,12 @@
 							<option>noimageclick</option>
 							<option>noimageindex</option>
 						</select>
+						<div class="collapse" id="robots">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>Essa parte é exclusivamente dedicada aos crawlers. A opção ‘index’ diz ao robô que você deseja que a página apareça nos resultados de busca, enquanto a opção ‘follow’ quer dizer que, a partir dessa página, os crawlers podem indexar as outras páginas presentes no seu site.</p>
+								<p>Consequentemente, as opções ‘no-follow’ e ‘no-index’ impedem os robôs de realizarem a indexação. Esses comandos são comumente usados em áreas privadas, como telas de login, nos sites.</p>
+							</small>	
+						</div>
 					</div>
 				</div>
 
@@ -115,6 +121,11 @@
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="author-input" placeholder="">
+						<div class="collapse" id="author">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>Esta tag é utilizada para que o crawler identifique e exiba o nome do autor do conteúdo da página indexada.</p>
+							</small>
+						</div>
 					</div>
 				</div>
 
@@ -357,6 +368,11 @@
 							<option value="zh-TW">Chinese (Taiwan)</option>
 							<option value="zu-ZA">Zulu (South Africa)</option>
 						</select>
+						<div class="collapse" id="language">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>Selecione em qual idioma está o seu site para melhorar seu rankeamento.</p>
+							</small>
+						</div>
 					</div>
 				</div>
 
@@ -367,6 +383,11 @@
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="key-input" placeholder="Palavras chave separadas por vírgula">
+						<div class="collapse" id="keywords">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>Esta seção identifica a palavra ou palavras-chave que você deseja rankear. Isso facilita o trabalho dos crawlers, mas lembre-se que o algoritmo de rankeamento considera outros fatores.</p>
+							</small>
+						</div>
 					</div>
 				</div>
 
@@ -503,6 +524,14 @@
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ogauthor-input" placeholder="">
+
+						<div class="collapse" id="ogauthor">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>Caso faça sentido destacar o autor do conteúdo da página, basta preencher este campo com o nome de quem a produziu.
+									<br>
+									Esse campo é <b>opcional</b>.</p>
+							</small>
+						</div>
 					</div>
 				</div>
 
@@ -518,28 +547,60 @@
 								<input class="form-check-input" type="checkbox" id="ttimage-check"> 100%
 							</label>
 						</div>
+
+						<div class="collapse" id="ttimage">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>Caso você deseje aumentar o tamanho da imagem ao divulgar o seu link no Twitter, basta marcar esse check.</p>
+							</small>
+						</div>
 					</div>
 				</div>
 
 				<div class="form-group row">
 					<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">
-						Username
+						Username do site
 						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 						<a data-toggle="collapse" href="#ttsite" aria-expanded="false" aria-controls="ttsite"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ttsite-input" placeholder="">
+
+						<div class="collapse" id="ttsite">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>
+									O ID no Twitter do site.
+									<br>
+									Ex: rockcontent
+									<br>
+									<br>
+									Esse campo é <b>opcional</b>.
+								</p>
+							</small>
+						</div>
 					</div>
 				</div>
 
 				<div class="form-group row">
 					<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">
-						Username
+						Username do usuário
 						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 						<a data-toggle="collapse" href="#ttcreator" aria-expanded="false" aria-controls="ttcreator"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ttcreator-input" placeholder="">
+
+						<div class="collapse" id="ttcreator">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>
+									Seu ID de usuário no Twitter.
+									<br>
+									Ex: pecanha
+									<br>
+									<br>
+									Esse campo é <b>opcional</b>.
+								</p>
+							</small>
+						</div>
 					</div>
 				</div>
 
@@ -555,17 +616,17 @@
 										<div id="ogdesc-user-preview" class="ogDescription"></div>
 									</div>
 
-							<!-- Script -->
-							<script type="text/javascript">	
-								$("select#CallToAction-input").change(function(){
-									var CallToAction = $(this).find("option:selected").text();
-									$('#CallToAction-user').html(CallToAction);
-									$("#hidden").empty();
-									if (CallToAction != 'Nenhum botão'){
-									$("#hidden").append('<div class="col"><button id="CallToAction-user" type="button" class="btn btn-light"></button><div>');
-									}									
-								});
-							</script>
+									<!-- Script -->
+									<script type="text/javascript">	
+										$("select#CallToAction-input").change(function(){
+											var CallToAction = $(this).find("option:selected").text();
+											$('#CallToAction-user').html(CallToAction);
+											$("#hidden").empty();
+											if (CallToAction != 'Nenhum botão'){
+											$("#hidden").append('<div class="col"><button id="CallToAction-user" type="button" class="btn btn-light"></button><div>');
+											}									
+										});
+									</script>
 
 									<div id="hidden">
 										<!-- JavaScript acima -->
@@ -582,7 +643,7 @@
 
 			    		<div class="ogTwitterText">Texto personalizável que acompanha o link da sua página. (Tweet até 140 caracteres)</div>
 			    		<div class="card" style="width: 100%;">
-									<div><img id="ogTwitterimgUserPreview" class="img-fluid"></div>
+									<div><img id="ogTwitterimgUserPreview" class="img-thumbnail"></div>
 							<div class="card-body">
 								<div id="ogTwittertitle-user-preview" class="ogTwitterTitle"></div>
 								<div id="ogTwitterdesc-user-preview" class="ogTwitterDescription"></div>
