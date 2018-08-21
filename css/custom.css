@@ -1,0 +1,225 @@
+/* --------------------//----------------------
+------ Institucional ------
+
+> azul
+HEX	#4967a9
+RGB	rgb(73, 103, 169)
+
+> cinza
+HEX	#5f625f
+RGB	rgb(95, 98, 95)
+
+----- Complementares ------
+
+> Verde escuro
+HEX	#006165
+RGB	rgb(0, 97, 101)
+
+> Verde
+HEX	#42ae67
+RGB	rgb(66, 174, 103)
+
+> Verde claro
+HEX	#aec813
+RGB	rgb(174, 200, 19)
+
+> Azul claro
+HEX	#1bb7d0
+RGB	rgb(27, 183, 208)
+
+> Azul escuro
+HEX	#263473
+RGB	rgb(38, 52, 115)
+
+> Roxo
+HEX	#524595
+RGB	rgb(82, 69, 149)
+--------------------//---------------------- */
+
+body,html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/* background: linear-gradient(to bottom right, #1BB7D0, #524595); */
+	background: #FFF;
+	overflow-x: hidden;
+}
+
+a {
+	color: #1bb7d0;
+}
+a:hover {
+	color: #1592a6;
+	text-decoration: none;
+}
+
+pre {
+	color: white;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.header {
+	background: URL(../img/bgg.png) center;
+	background: #1bb7d0;
+	background: #80CBC4;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#263473+1,524595+100 */
+	background: #263473; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #263473 1%, #524595 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #263473 1%,#524595 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #263473 1%,#524595 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263473', endColorstr='#524595',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+	color: #fafafa !important;
+	padding: 75px 0;
+	margin-bottom: 50px;
+}
+
+.footer {
+	color: #444;
+	margin-top: 50px;
+	padding: 25px 0;
+}
+.footer .small {
+	font-size: 0.7rem;
+}
+.footer .copyright {
+	color: #aaa;
+}
+
+h2 {
+	font-size: 50px !important;
+	font-weight: 700 !important;
+}
+
+.logo {
+	width: 30px !important;
+}
+
+.navbar-toggler {
+	border: none;
+	outline: none;
+}
+
+.fixed-top {
+	position: relative;
+}
+
+.name {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.content-box {
+	background-color: #fafafa;
+	/*border-radius: 5px;
+	margin: 20px;
+	padding: 5px;*/
+}
+
+#user-input, #user-data {
+	padding: 35px;
+}
+
+label .material-icons, label .fa {
+	color: #999;
+	font-size: 1rem;
+}
+label .material-icons:hover {
+	color: #545454;
+	font-size: 1rem;
+}
+
+.progress {
+	height: 0.5rem;
+	margin: 10px 0;
+}
+
+.google {
+	margin: 25px 0;
+	width: 600px;
+}
+.googleTitle {
+	color: #1a0dab;
+	font-size: 18px;
+	font-weight: 500;
+}
+.googleURL {
+	color: #006621;
+	font-size: 14px;
+}
+.googleDescription {
+	color: #545454;
+	font-size: 13px;
+}
+
+.og {
+	margin: 25px 0;
+	max-width: 527px;
+}
+
+.ogTwitter {
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	margin: 25px 0;
+	max-width: 508px;
+}
+.ogTwitterText {
+  line-height: 20px;
+  font-weight: normal;
+	padding-bottom: 10px;
+}
+.ogTwitterTitle {
+	font-weight: bold;
+	line-height: 1.3em;
+	margin: 0 0 .15em;
+}
+.ogTwitterDescription {
+	line-height: 1.3em;
+	margin-top: .32333em;
+	margin-bottom: .32333em;
+}
+.ogTwitterURL {
+  color: #8899A6;
+  max-height: 1.3em;
+	margin-top: .32333em;
+	text-transform: lowercase;
+  white-space: nowrap;
+	margin-bottom: .32333em;
+}
+
+.ogTitle {
+	color: #4b4f56;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	padding-top: 12px;
+}
+.ogURL {
+	color: #4b4f56;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-top: 9px;
+}
+.ogDescription {
+	color: #4b4f56;
+	font-size: 13px;
+	padding-top: 5px;
+}
+
+.ogCallToAction {
+	text-align: center;
+    vertical-align: middle;
+}
+
+.ogHidden {
+	display: none;
+}
