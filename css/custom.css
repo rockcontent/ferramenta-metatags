@@ -150,14 +150,29 @@ label .material-icons:hover {
 	color: #1a0dab;
 	font-size: 18px;
 	font-weight: 500;
+	white-space: nowrap; 
+	overflow: hidden;
+  	text-overflow: ellipsis;
 }
 .googleURL {
 	color: #006621;
 	font-size: 14px;
+	white-space: nowrap; 
+	overflow: hidden;
+  	text-overflow: ellipsis;
 }
 .googleDescription {
 	color: #545454;
 	font-size: 13px;
+
+	display: -webkit-box;
+	display: box;
+	max-width: 100%;
+   	-webkit-line-clamp: 3;
+  	-webkit-box-orient: vertical;
+  	overflow: hidden;
+	text-overflow: ellipsis;
+  	
 }
 
 .og {
