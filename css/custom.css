@@ -94,9 +94,15 @@ pre {
 	color: #aaa;
 }
 
-h2 {
-	font-size: 50px !important;
-	font-weight: 700 !important;
+#inicio h2 {
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 70px;
+	margin-bottom: 25px;
+}
+#inicio p {
+	font-size: 17px;
+	font-weight: 300;
 }
 
 .logo {
@@ -150,14 +156,14 @@ label .material-icons:hover {
 	color: #1a0dab;
 	font-size: 18px;
 	font-weight: 500;
-	white-space: nowrap; 
+	white-space: nowrap;
 	overflow: hidden;
   	text-overflow: ellipsis;
 }
 .googleURL {
 	color: #006621;
 	font-size: 14px;
-	white-space: nowrap; 
+	white-space: nowrap;
 	overflow: hidden;
   	text-overflow: ellipsis;
 }
@@ -172,7 +178,7 @@ label .material-icons:hover {
   	-webkit-box-orient: vertical;
   	overflow: hidden;
 	text-overflow: ellipsis;
-  	
+
 }
 
 .og {

@@ -1,13 +1,11 @@
-<section class="header">
+<section id="inicio" class="header">
 	<div class="container">
-		<div class="row">
-			<div class="col-12 col-md-6">
+		<div class="row align-items-center">
+			<div class="col-12 col-md-7">
 				<h2>Quer ficar em primeiro lugar no Google?</h2>
-				<br>
-				<p>Esta é uma ferramenta que vai te ajudar com as tags HTML necessárias para rankear bem no Google, Bing, Yahoo, Ask, entre outros. Ou seja, ela funciona como um <strong>guia de Otimização para Motores de Busca</strong> para usuários de todos os níveis – seja iniciante ou profissional.</p>
-				<p>Comece logo a trabalhar no SEO para obter resultados cada vez mais positivos!</p>
+				<p>Comece logo a trabalhar com tags HTML necessárias para rankear bem nos maiores buscadores do mercado. <strong>Conheça o poder do SEO!</strong></p>
 			</div>
-			<div class="col col-md-5 offset-md-1 text-right">
+			<div class="col-md-5 text-right">
 				<img src="img/topo.png" alt="Gerador de Meta Tags" class="img-fluid">
 			</div>
 		</div>

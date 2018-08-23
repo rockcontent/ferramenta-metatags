@@ -1,10 +1,4 @@
 <div class="container content">
-	<div class="row">
-		<?php
-			//include 'modal.php'; //DESCOMENTAR PARA O MODAL DE LEADS FUNCIONAR
-			include 'generator.php';
-		?>
-	</div>
+	<?php //include 'modal.php'; //DESCOMENTAR PARA O MODAL DE LEADS FUNCIONAR?>
+	<?php include 'generator.php'; ?>
 </div>
-
-
