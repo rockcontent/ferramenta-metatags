@@ -482,41 +482,44 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="CallToAction-input" class="col-sm-3 col-form-label">
-					Chamada para ação
-					<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
-					<a data-toggle="collapse" href="#CallToAction" aria-expanded="false" aria-controls="CallToAction"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
-				</label>
-				<div class="col-sm-9">
-					<select class="form-control" id="CallToAction-input">
-						<option>Nenhum botão</option>
-						<option>Assinar</option>
-						<option>Assistir Mais</option>
-						<option>Baixar</option>
-						<option>Cadastre-se</option>
-						<option>Como chegar</option>
-						<option>Comprar agora</option>
-						<option>Enviar mensagem</option>
-						<option>Fale conosco</option>
-						<option>Ligar agora</option>
-						<option>Obter horários das sessões</option>
-						<option>Ouvir agora</option>
-						<option>Reservar agora</option>
-						<option>Saiba Mais</option>
-						<option>Salvar</option>
-						<option>Solicitar agora</option>
-						<option>Solicitar hora marcada</option>
-						<option>Ver cardápio</option>
-					</select>
+			<!-- Call to Action -->
+			<!--
+				<div class="form-group row">
+					<label for="CallToAction-input" class="col-sm-3 col-form-label">
+						Chamada para ação
+						<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
+						<a data-toggle="collapse" href="#CallToAction" aria-expanded="false" aria-controls="CallToAction"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
+					</label>
+					<div class="col-sm-9">
+						<select class="form-control" id="CallToAction-input"> 
+							<option>Nenhum botão</option>
+							<option>Assinar</option>
+							<option>Assistir Mais</option>
+							<option>Baixar</option>
+							<option>Cadastre-se</option>
+							<option>Como chegar</option>
+							<option>Comprar agora</option>
+							<option>Enviar mensagem</option>
+							<option>Fale conosco</option>
+							<option>Ligar agora</option>
+							<option>Obter horários das sessões</option>
+							<option>Ouvir agora</option>
+							<option>Reservar agora</option>
+							<option>Saiba Mais</option>
+							<option>Salvar</option>
+							<option>Solicitar agora</option>
+							<option>Solicitar hora marcada</option>
+							<option>Ver cardápio</option>
+						</select>
 
-					<div class="collapse" id="CallToAction">
-						<small id="titleHelp" class="form-text text-muted">
-							<p>Escolha a ação que você quer que as pessoas executem quando virem seu anúncio.</p>
-						</small>
+						<div class="collapse" id="CallToAction">
+							<small id="titleHelp" class="form-text text-muted">
+								<p>Escolha a ação que você quer que as pessoas executem quando virem seu anúncio.</p>
+							</small>
+						</div>
 					</div>
 				</div>
-			</div>
+			-->
 
 
 			<div class="form-group row">
@@ -620,21 +623,24 @@
 									<div id="ogdesc-user-preview" class="ogDescription"></div>
 								</div>
 
-								<!-- Script -->
-								<script type="text/javascript">
+							<!-- Script -->
+
+					<!--
+							<script type="text/javascript">	
 								$("select#CallToAction-input").change(function(){
 									var CallToAction = $(this).find("option:selected").text();
 									$('#CallToAction-user').html(CallToAction);
 									$("#hidden").empty();
 									if (CallToAction != 'Nenhum botão'){
-										$("#hidden").append('<div class="col"><button id="CallToAction-user" type="button" class="btn btn-light"></button><div>');
-									}
+									$("#hidden").append('<div class="col"><button id="CallToAction-user" type="button" class="btn btn-light"></button><div>');
+									}									
 								});
-								</script>
+							</script>
 
-								<div id="hidden">
-									<!-- JavaScript acima -->
-								</div>
+							<div id="hidden">
+								<-- JavaScript acima -!>
+							</div>
+					-->
 
 							</div>
 						</div>
