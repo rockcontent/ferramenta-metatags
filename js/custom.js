@@ -135,7 +135,8 @@ $(function() {
 
 	$('#ogurl-input').keyup(function() {
 		$('#ogurl-user').html($(this).val());
-		$('#ogurl-user-preview').html($(this).val());
+		const url = new URL($(this).val());
+		$('#ogurl-user-preview').html(url.hostname);
 	});
 
 	$("select#CallToAction-input").change(function(){
@@ -182,7 +183,8 @@ $(function() {
 
 	$('#ogurl-input').keyup(function() {
 		$('#ogTwitterurl-user').html($(this).val());
-		$('#ogTwitterurl-user-preview').html($(this).val());
+		const url = new URL($(this).val());
+		$('#ogTwitterurl-user-preview').html(url.hostname);
 	});
 
 	$('#ogimageInput').keyup(function() {

@@ -78,7 +78,7 @@
 					<a data-toggle="collapse" href="#url" aria-expanded="false" aria-controls="url"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="url-input" placeholder="">
+					<input type="url" class="form-control" id="url-input" placeholder="">
 					<div class="collapse" id="url">
 						<small id="titleHelp" class="form-text text-muted">
 							<p>A URL é o endereço da sua página online e, portanto, única. É importante que ela seja de fácil compreensão, tanto para o usuário quanto para o buscador. Evite números e palavras complicadas. Sempre use a palavra-chave na URL.</p>
@@ -447,7 +447,7 @@
 					<a data-toggle="collapse" href="#ogurl" aria-expanded="false" aria-controls="ogurl"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="ogurl-input" placeholder="">
+					<input type="url" class="form-control" id="ogurl-input" placeholder="">
 
 					<div class="collapse" id="ogurl">
 						<small id="titleHelp" class="form-text text-muted">
@@ -466,7 +466,7 @@
 					<a data-toggle="collapse" href="#ogimage" aria-expanded="false" aria-controls="ogimage"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="ogimageInput" placeholder="">
+					<input type="url" class="form-control" id="ogimageInput" placeholder="">
 
 					<div class="collapse" id="ogimage">
 						<small id="titleHelp" class="form-text text-muted">
@@ -735,7 +735,7 @@
 					<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-btn" data-toggle="tooltip" data-placement="top" title="Copiar para a área de trabalho">Copiar</a>
 				</div>
 			</div>
-		</div>
+	</div>
 
 		<div class="container collapse">
 			<div class="col">
