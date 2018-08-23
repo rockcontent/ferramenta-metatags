@@ -231,6 +231,11 @@ label .material-icons:hover {
 	font-size: 12px;
 	text-transform: uppercase;
 	padding-top: 9px;
+
+	white-space: nowrap; 
+	max-width: 100%;   	
+  	overflow: hidden;
+  	text-overflow: ellipsis;
 }
 .ogDescription {
 	color: #4b4f56;

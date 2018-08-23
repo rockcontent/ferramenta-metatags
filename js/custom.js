@@ -120,6 +120,11 @@ $(function() {
 		$('#ogtitle-user').html($(this).val());
 		$('#tttitle-user').html($(this).val());
 		$('#ogtitle-user-preview').html($(this).val());
+		if ($('#ogtitle-user-preview').height() > 35){
+			$("#ogdesc-user-preview").hide();
+		} else {
+			$("#ogdesc-user-preview").show();
+		}
 	});
 
 	$('#ogdesc-input').keyup(function() {
