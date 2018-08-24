@@ -136,7 +136,12 @@ $(function() {
 	$('#ogurl-input').keyup(function() {
 		$('#ogurl-user').html($(this).val());
 		const url = new URL($(this).val());
-		$('#ogurl-user-preview').html(url.hostname);
+		if(url.protocol == 'http:' || url.protocol == 'https:'){
+			$('#ogurl-user-preview').html(url.hostname);
+		}
+		else{
+			$('#ogurl-user-preview').html($(this).val());
+		}
 	});
 
 	$("select#CallToAction-input").change(function(){
