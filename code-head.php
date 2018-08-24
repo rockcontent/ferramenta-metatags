@@ -1,7 +1,3 @@
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="utf-8"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="language" content="<span id="lang-user"></span>"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;<span id="title-user"></span>&lt;/title&gt;
@@ -45,4 +41,3 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"&gt;&lt;/script&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"&gt;&lt;/script&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"&gt;&lt;/script&gt;</div>
-&lt;/head&gt;
