@@ -731,9 +731,9 @@
 				<br>
 				<h6>Esse código deve entrar no <strong>Body</strong></h6>
 				<div id="user-data" class="content-box bg-dark text-white">
-					<pre><code id="code-copy" class="language-html" data-lang="html"><?php include 'code-body.php'; ?></code></pre>
+					<pre><code id="code-copy-body" class="language-html" data-lang="html"><?php include 'code-body.php'; ?></code></pre>
 					<div class="text-right">
-						<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-btn" data-toggle="tooltip" data-placement="top" title="Copiar para a área de trabalho">Copiar</a>
+						<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-body-btn" data-toggle="tooltip" data-placement="top" title="Copiar para a área de trabalho">Copiar</a>
 					</div>
 				</div>
 			</div>

@@ -334,7 +334,7 @@ $(function() {
 		});
 	});
 
-	// -- copy btn -- //
+	// -- copy btn head -- //
 	$('#copy-code-btn').on('click', function(e){
 		let textarea = document.createElement('textarea');
 		textarea.id = 't';
@@ -348,5 +348,18 @@ $(function() {
 		e.preventDefault();
 	});
 
+	// -- copy btn body -- //
+	$('#copy-code-body-btn').on('click', function(e){
+		let textarea = document.createElement('textarea');
+		textarea.id = 't';
+		textarea.style.height = 0;
+		document.body.appendChild(textarea);
+		textarea.value = document.getElementById('code-copy-body').innerText;
+		let selector = document.querySelector('#t');
+		selector.select();
+		document.execCommand('copy');
+		document.body.removeChild(textarea);
+		e.preventDefault();
+	});
 
 });
