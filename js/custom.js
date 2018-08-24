@@ -233,6 +233,7 @@ $(function() {
 	// -- include tag manager code -- //
 	$("#tagmng-code1").hide();
 	$("#tagmng-code2").hide();
+	$("#body").hide();
 	$("#tagmng-input").each(function() {
 		var $this = $(this);
 		var el = document.getElementById("tagmng-code1");
@@ -242,12 +243,14 @@ $(function() {
 			var cc = $this.val().length;
 
 			if (cc > 0) {
+				$("#body").show();
 				el.style.display = "block";
 				el2.style.display = "block";
 				$('#tagmng-user1').html($('#tagmng-input').val());
 				$('#tagmng-user2').html($('#tagmng-input').val());
 
 			} else {
+				$("#body").hide();
 				el.style.display = "none";
 				el2.style.display = "none";
 			}
