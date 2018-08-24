@@ -20,12 +20,12 @@
 			<h3>Meta Tags</h3>
 			<p>As <strong>Meta Tags</strong> são trechos de informação inseridos no código fonte de uma página. Elas são importantes formas de seu site e conteúdo serem expressos para os motores de busca, alavancando o SEO. Todas as suas páginas (todas!) devem ter essas tags personalizadas. Abaixo, temos as mais importantes que não podem faltar no seu site.</p>
 
-			<div class="form-group row">
-				<label for="title-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="title-input" class="col-form-label">
 					Título da página
 					<a data-toggle="collapse" href="#title" aria-expanded="false" aria-controls="title"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="text" class="form-control" id="title-input" placeholder="" maxlength="100">
 					<div id="total-title" class="progress">
 						<div id="progress-title" class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
@@ -46,12 +46,12 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="desc-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="desc-input" class="col-form-label">
 					Descrição da página
 					<a data-toggle="collapse" href="#description" aria-expanded="false" aria-controls="description"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<!--<input type="text" class="form-control" id="desc-input" placeholder="">-->
 					<textarea class="form-control" name="desc-input" id="desc-input" rows="3" maxlength="160"></textarea>
 					<div class="progress">
@@ -72,12 +72,12 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="url-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="url-input" class="col-form-label">
 					URL da página
 					<a data-toggle="collapse" href="#url" aria-expanded="false" aria-controls="url"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="url" class="form-control" id="url-input" placeholder="">
 					<div class="collapse" id="url">
 						<small id="titleHelp" class="form-text text-muted">
@@ -92,12 +92,12 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="robots-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="robots-input" class="col-form-label">
 					Robots
 					<a data-toggle="collapse" href="#robots" aria-expanded="false" aria-controls="robots"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<select class="form-control" id="robots-input">
 						<option selected option:disabled  style="display: none;">Escolha uma opção</option>
 						<option>all</option>
@@ -118,12 +118,12 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="author-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="author-input" class="col-form-label">
 					Autor da página
 					<a data-toggle="collapse" href="#author" aria-expanded="false" aria-controls="author"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="text" class="form-control" id="author-input" placeholder="">
 					<div class="collapse" id="author">
 						<small id="titleHelp" class="form-text text-muted">
@@ -133,13 +133,13 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="lang-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="lang-input" class="col-form-label">
 					Idioma
 					<a data-toggle="collapse" href="#language" aria-expanded="false" aria-controls="language"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
 				<!--<input type="text" class="form-control" id="lang-input" placeholder="">-->
-				<div class="col-sm-9">
+				<div>
 					<select class="form-control" id="lang-input">
 						<option selected selected option:disabled style="display: none;">Escolha o idioma</option>
 						<option value="pt-BR">Português (Brasil)</option>
@@ -380,12 +380,12 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="key-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="key-input" class="col-form-label">
 					Keywords
 					<a data-toggle="collapse" href="#keywords" aria-expanded="false" aria-controls="keywords"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="text" class="form-control" id="key-input" placeholder="Palavras chave separadas por vírgula">
 					<div class="collapse" id="keywords">
 						<small id="titleHelp" class="form-text text-muted">
@@ -403,14 +403,14 @@
 
 			<h4>Facebook e Twitter</h4>
 
-			<div class="form-group row">
-				<label for="ogtitle-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="ogtitle-input" class="col-form-label">
 					Título
 					<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
 					<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 					<a data-toggle="collapse" href="#ogtitle" aria-expanded="false" aria-controls="ogtitle"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="text" class="form-control" id="ogtitle-input" placeholder="">
 
 					<div class="collapse" id="ogtitle">
@@ -421,14 +421,14 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="ogdesc-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="ogdesc-input" class="col-form-label">
 					Descrição
 					<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
 					<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 					<a data-toggle="collapse" href="#ogdescription" aria-expanded="false" aria-controls="ogdescription"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="text" class="form-control" id="ogdesc-input" placeholder="">
 
 					<div class="collapse" id="ogdescription">
@@ -439,14 +439,14 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="ogurl-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="ogurl-input" class="col-form-label">
 					URL
 					<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
 					<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 					<a data-toggle="collapse" href="#ogurl" aria-expanded="false" aria-controls="ogurl"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="url" class="form-control" id="ogurl-input" placeholder="">
 
 					<div class="collapse" id="ogurl">
@@ -458,14 +458,14 @@
 				</div>
 			</div>
 
-			<div class="form-group row">
-				<label for="ogimageInput" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="ogimageInput" class="col-form-label">
 					URL da imagem
 					<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
 					<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 					<a data-toggle="collapse" href="#ogimage" aria-expanded="false" aria-controls="ogimage"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="url" class="form-control" id="ogimageInput" placeholder="">
 
 					<div class="collapse" id="ogimage">
@@ -484,13 +484,13 @@
 
 			<!-- Call to Action -->
 			<!--
-				<div class="form-group row">
-					<label for="CallToAction-input" class="col-sm-3 col-form-label">
+				<div class="form-group">
+					<label for="CallToAction-input" class="col-form-label">
 						Chamada para ação
 						<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
 						<a data-toggle="collapse" href="#CallToAction" aria-expanded="false" aria-controls="CallToAction"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
-					<div class="col-sm-9">
+					<div>
 						<select class="form-control" id="CallToAction-input"> 
 							<option>Nenhum botão</option>
 							<option>Assinar</option>
@@ -522,14 +522,14 @@
 			-->
 
 
-			<div class="form-group row">
-				<label for="ogauthor-input" class="col-sm-3 col-form-label">
+			<div class="form-group">
+				<label for="ogauthor-input" class="col-form-label">
 					Autor
 					<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
 					<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 					<a data-toggle="collapse" href="#ogauthor" aria-expanded="false" aria-controls="ogauthor"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 				</label>
-				<div class="col-sm-9">
+				<div>
 					<input type="text" class="form-control" id="ogauthor-input" placeholder="">
 
 					<div class="collapse" id="ogauthor">
@@ -542,13 +542,13 @@
 					</div>
 				</div>
 
-				<div class="form-group row">
-					<label for="ttimage-input" class="col-sm-3 col-form-label">
+				<div class="form-group">
+					<label for="ttimage-input" class="col-form-label">
 						Destacar Imagem
 						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 						<a data-toggle="collapse" href="#ttimage" aria-expanded="false" aria-controls="ttimage"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Aumentar o tamanho da imagem">help</i></a>
 					</label>
-					<div class="col-sm-9">
+					<div>
 						<div class="form-checkbox">
 							<label class="form-check-label">
 								<input class="form-check-input" type="checkbox" id="ttimage-check"> 100%
@@ -563,13 +563,13 @@
 					</div>
 				</div>
 
-				<div class="form-group row">
-					<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">
+				<div class="form-group">
+					<label for="exampleFormControlInput1" class="col-form-label">
 						Username do site
 						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 						<a data-toggle="collapse" href="#ttsite" aria-expanded="false" aria-controls="ttsite"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
-					<div class="col-sm-9">
+					<div>
 						<input type="text" class="form-control" id="ttsite-input" placeholder="">
 
 						<div class="collapse" id="ttsite">
@@ -587,13 +587,13 @@
 					</div>
 				</div>
 
-				<div class="form-group row">
-					<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">
+				<div class="form-group">
+					<label for="exampleFormControlInput1" class="col-form-label">
 						Username do usuário
 						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
 						<a data-toggle="collapse" href="#ttcreator" aria-expanded="false" aria-controls="ttcreator"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
-					<div class="col-sm-9">
+					<div>
 						<input type="text" class="form-control" id="ttcreator-input" placeholder="">
 
 						<div class="collapse" id="ttcreator">
@@ -669,32 +669,32 @@
 				<p>As tags estão todas prontas?! Ótimo! Basta copiar o código apresentado no box ao lado e inserí-lo em sua página.</p>
 				<p>Agora vamos dar algumas dicas extras para ara continuar aprendendo sobre sua página, pois é muito importante observá-la de perto para trazer o público certo para vê-la.</p>
 
-				<div class="form-group row">
-					<label for="" class="col-sm-3 col-form-label">
+				<div class="form-group">
+					<label for="" class="col-form-label">
 						ID do Google Analytics
 						<a data-toggle="collapse" href="#analytics" aria-expanded="false" aria-controls="analytics"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
-					<div class="col-sm-9">
+					<div>
 						<input type="text" class="form-control" id="analytics-input" placeholder="UA-12345678-90" maxlength="20">
 					</div>
 				</div>
 
-				<div class="form-group row">
-					<label for="" class="col-sm-3 col-form-label">
+				<div class="form-group">
+					<label for="" class="col-form-label">
 						ID do Google Tag Manager
 						<a data-toggle="collapse" href="#tagmanager" aria-expanded="false" aria-controls="tagmanager"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
-					<div class="col-sm-9">
+					<div>
 						<input type="text" class="form-control" id="tagmng-input" placeholder="GTM-ABCDE1" maxlength="20">
 					</div>
 				</div>
 
-				<div class="form-group row">
-					<label for="bootstrap-input" class="col-sm-3 col-form-label">
+				<div class="form-group">
+					<label for="bootstrap-input" class="col-form-label">
 						Bootstrap
 						<a data-toggle="collapse" href="#bootstrap" aria-expanded="false" aria-controls="bootstrap"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
-					<div class="col-sm-9">
+					<div>
 						<div class="form-checkbox">
 							<label class="form-check-label">
 								<input class="form-check-input" type="checkbox" id="bootstrap-check"> Incluir (versão 4)
