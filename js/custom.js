@@ -192,7 +192,14 @@ $(function() {
 		$('#ogTwitterurl-user-preview').html(url.hostname);
 	});
 
+	$("#twitterpreview2").hide();
 	$('#ogimageInput').keyup(function() {
+		 if( $(this).val().length === 0 ) {
+		 	$("#twitterpreview2").hide();
+		 }
+		 else{
+		 	$("#twitterpreview2").show();
+		 }
 		var selecionada = $('#ogimageInput').val();
     	$('#ogTwitterimgUserPreview').attr("src", selecionada);
 		$('#ogTwitterimage-user').html($(this).val());
@@ -222,9 +229,16 @@ $(function() {
 		if (check) {
 			$("#ttimage-code").show();
 			$("#ogTwitterimgUserPreview").attr('class', 'img-fluid');
+			$("#twitterpreview1").attr('class', '');
+			$("#twitterpreview2").attr('class', '');
+			$("#twitterpreview3").attr('class', '');
 		} else {
 			$("#ttimage-code").hide();
-			$("#ogTwitterimgUserPreview").attr('class', 'img-thumbnail');
+			$("#ogTwitterimgUserPreview").attr('class', 'imgthumbnail');
+			$("#twitterpreview1").attr('class', 'row');
+			$("#twitterpreview2").attr('class', 'col-3');
+			$("#twitterpreview3").attr('class', 'col-9');
+
 		}
 	});
 

@@ -231,6 +231,17 @@ label .material-icons:hover {
 	margin-bottom: .32333em;
 }
 
+.imgthumbnail{
+	width: 128.25px;
+    height: 100%;
+}
+
+.img-fluid{
+	display: block;
+	background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 100%;
+}
+
 .ogTitle {
 	color: #4b4f56;
 	font-family: Georgia, serif;

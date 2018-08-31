@@ -633,7 +633,8 @@
 			</form>
 		</div>
 	</div>
-	<div class="col-12 col-sm-7">
+	<!-- Facebook e Twitter Preview -->
+	<div class="col-12 col-sm-7" id="flutuando">
 		<div id="og" class="card og mx-auto">
 								<div class="card-body">
 									<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
@@ -646,25 +647,6 @@
 												<div id="ogdesc-user-preview" class="ogDescription"></div>
 											</div>
 
-										<!-- Script -->
-
-								<!--
-										<script type="text/javascript">	
-											$("select#CallToAction-input").change(function(){
-												var CallToAction = $(this).find("option:selected").text();
-												$('#CallToAction-user').html(CallToAction);
-												$("#hidden").empty();
-												if (CallToAction != 'Nenhum botão'){
-												$("#hidden").append('<div class="col"><button id="CallToAction-user" type="button" class="btn btn-light"></button><div>');
-												}									
-											});
-										</script>
-
-										<div id="hidden">
-											<-- JavaScript acima -!>
-										</div>
-								-->
-
 										</div>
 									</div>
 								</div>
@@ -676,11 +658,17 @@
 
 									<div class="ogTwitterText">Texto personalizável que acompanha o link da sua página. (Tweet até 140 caracteres)</div>
 									<div class="card" style="width: 100%;">
-										<div><img id="ogTwitterimgUserPreview" class="img-thumbnail"></div>
-										<div class="card-body">
-											<div id="ogTwittertitle-user-preview" class="ogTwitterTitle"></div>
-											<div id="ogTwitterdesc-user-preview" class="ogTwitterDescription"></div>
-											<div id="ogTwitterurl-user-preview" class="ogTwitterURL"></div>
+										<div class="row" id="twitterpreview1">
+											<div class="col-3" id="twitterpreview2">
+												<img id="ogTwitterimgUserPreview" class="imgthumbnail">
+											</div>
+											<div class="col-9" id="twitterpreview3">
+												<div class="card-body">
+													<div id="ogTwittertitle-user-preview" class="ogTwitterTitle"></div>
+													<div id="ogTwitterdesc-user-preview" class="ogTwitterDescription"></div>
+													<div id="ogTwitterurl-user-preview" class="ogTwitterURL"></div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
