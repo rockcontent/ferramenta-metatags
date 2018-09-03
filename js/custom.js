@@ -196,9 +196,17 @@ $(function() {
 	$('#ogimageInput').keyup(function() {
 		 if( $(this).val().length === 0 ) {
 		 	$("#twitterpreview2").hide();
+		 	$("#facebookgray").attr('class', '');
+		 	$("#twitterpreview1").attr('class', '');
+			$("#twitterpreview2").attr('class', '');
+			$("#twitterpreview3").attr('class', '');
 		 }
 		 else{
 		 	$("#twitterpreview2").show();
+		 	$("#facebookgray").attr('class', 'facebookgray');
+		 	$("#twitterpreview1").attr('class', 'row');
+			$("#twitterpreview2").attr('class', 'col-3');
+			$("#twitterpreview3").attr('class', 'col-9');
 		 }
 		var selecionada = $('#ogimageInput').val();
     	$('#ogTwitterimgUserPreview').attr("src", selecionada);

@@ -5,23 +5,13 @@
 		<p>Vamos começar?</p>
 	</div>
 
-	<div class="card">
-		<div class="card-body">
-			<p class="card-text small"><b>Como usar?</b></p>
-			<p class="card-text small">
-				Preencha os campos e um código HTML será gerado no box cinza. Caso você tenha alguma dúvida ao longo dos campos, procure os ícones com uma marca de interrogação: <i class="material-icons" style="font-size: 0.7rem;">help</i>.
-			</p>
-		</div>
-	</div> <!-- EXTRAS --> 
+	
 </div>
 <!-- META TAGS -->
 <div class="row">
 	<div class="col-12 col-sm-5">
 		<div class="content-box">
 			<form id="user-input">
-				<h3>Meta Tags</h3>
-				<p>As <strong>Meta Tags</strong> são trechos de informação inseridos no código fonte de uma página. Elas são importantes formas de seu site e conteúdo serem expressos para os motores de busca, alavancando o SEO. Todas as suas páginas (todas!) devem ter essas tags personalizadas. Abaixo, temos as mais importantes que não podem faltar no seu site.</p>
-
 				<div class="form-group">
 					<label for="title-input" class="col-form-label">
 						Título da página
@@ -399,7 +389,10 @@
 			</form>
 		</div>
 	</div>	
-	<div class="col-12 col-sm-7" id="previa">
+	<div class="col-12 col-sm-7" id="">
+		<h3>Meta Tags</h3>
+				<p>As <strong>Meta Tags</strong> são trechos de informação inseridos no código fonte de uma página. Elas são importantes formas de seu site e conteúdo serem expressos para os motores de busca, alavancando o SEO. Todas as suas páginas (todas!) devem ter essas tags personalizadas. Abaixo, temos as mais importantes que não podem faltar no seu site.</p>
+
 		<div id="google" class="card google mx-auto">
 			<div class="card-body">
 				<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Google</h6>
@@ -411,17 +404,11 @@
 	</div>
 </div>
 <!-- OPEN GRAPH -->
-<div class="row">
+<div class="row" id="nopadding">
 	<div class="col-12 col-sm-5">
 		<div class="content-box">
 			<form id="user-input">
-				<hr class="my-4">
 				<div class="form-group">
-
-				<h3>Open Graph</h3>
-
-				<p>As tags Open Graph vão te permitir personalizar o que aparecerá no compartilhamento de mídias sociais como o Facebook, Twitter, LinkedIn, entre outras.</p>
-
 				<h4>Facebook e Twitter</h4>
 
 					<label for="ogtitle-input" class="col-form-label">
@@ -634,58 +621,78 @@
 		</div>
 	</div>
 	<!-- Facebook e Twitter Preview -->
-	<div class="col-12 col-sm-7" id="flutuando">
+	<div class="col-12 col-sm-7" id="">	
+		<h3>Open Graph</h3>
+			<p>As tags Open Graph vão te permitir personalizar o que aparecerá no compartilhamento de mídias sociais como o Facebook, Twitter, LinkedIn, entre outras.</p>
 		<div id="og" class="card og mx-auto">
-								<div class="card-body">
-									<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
-									<div class="card" style="width: 100%;">
-										<div><img id="ogimgUserPreview" class="img-fluid"></div>
-										<div id="ogurl-user-preview" class="ogURL"></div>
-										<div class="row">
-											<div class="col">
-												<div id="ogtitle-user-preview" class="ogTitle"></div>
-												<div id="ogdesc-user-preview" class="ogDescription"></div>
-											</div>
-
-										</div>
+			<div>
+				<div class="row" style="margin-bottom: 10px; padding-top: 10px; padding-left: 10px;">
+					<div class="col-2" style="padding-right: 0px;">
+						<img class="_s0 _4ooo _5xib _5sq7 _44ma _rw img" src="https://scontent.fplu11-1.fna.fbcdn.net/v/t1.0-1/p50x50/10373675_866032716757827_7992496437931917105_n.png?_nc_cat=1&amp;oh=4fcdae69d67330d37b8ee9edab615358&amp;oe=5BFC97DE" alt="" aria-label="Facebook" role="img" style="border-radius: 50%">
+					</div>
+					<div class="col-10" style="margin-left: -15px;">
+						<div class="row">
+							<strong>Breno Poggiali de Sousa</strong>
+						</div>
+						<div class="row">
+							Just now - Amsterdam, Netherlands
+						</div>
+					</div>
+				</div>
+				<div class="ogText">Texto personalizável que acompanha o seu post do Facebook.</div>
+				<div>
+					<img id="ogimgUserPreview" class="ogImage" width="100%">
+				</div>
+				<div id="facebookgray" class="" style="padding-left: 10px; width: 100%;">
+					<div id="ogurl-user-preview" class="ogURL" style="text-transform: uppercase; color: #4b4f56"></div>
+					<div id="ogtitle-user-preview" class="ogTitle" style="font-weight: bold;"></div>
+					<div id="ogdesc-user-preview" class="ogDescription"></div>
+				</div>
+				<img src="https://image.ibb.co/c4o7vK/curtidas_facebook.png" width="100%">
+			</div>
+		</div>
+		<div id="ogTwitter" class="card og mx-auto">
+			<div class="card-body" style="padding-top: 10px;">
+				<div class="row">
+					<div class="col-1" id="nopadding">
+						<!-- Imagem do Twitter -->
+						<img class="Avatar Avatar--edge" data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_normal.jpg" src="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_normal.jpg" style="border-radius: 50%;">
+					</div>
+					<div class="col-11">
+						<div class="row">
+							<div>&nbsp;&nbsp;&nbsp;
+								<strong>Twitter</strong> @Twitter • now
+							</div>
+						</div>
+						<div class="ogTwitterText">Texto personalizável que acompanha o link da sua página. (Tweet até 140 caracteres)</div>
+						<div class="card" style="width: 100%;">
+							<div class="" id="twitterpreview1">
+								<div class="" id="twitterpreview2">
+									<img id="ogTwitterimgUserPreview" class="imgthumbnail">
+								</div>
+								<div class="" id="twitterpreview3">
+									<div class="card-body">
+										<div id="ogTwittertitle-user-preview" class="ogTwitterTitle"></div>
+										<div id="ogTwitterdesc-user-preview" class="ogTwitterDescription"></div>
+										<div id="ogTwitterurl-user-preview" class="ogTwitterURL"></div>
 									</div>
 								</div>
 							</div>
-
-							<div id="ogTwitter" class="card og mx-auto">
-								<div class="card-body">
-									<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Twitter</h6>
-
-									<div class="ogTwitterText">Texto personalizável que acompanha o link da sua página. (Tweet até 140 caracteres)</div>
-									<div class="card" style="width: 100%;">
-										<div class="row" id="twitterpreview1">
-											<div class="col-3" id="twitterpreview2">
-												<img id="ogTwitterimgUserPreview" class="imgthumbnail">
-											</div>
-											<div class="col-9" id="twitterpreview3">
-												<div class="card-body">
-													<div id="ogTwittertitle-user-preview" class="ogTwitterTitle"></div>
-													<div id="ogTwitterdesc-user-preview" class="ogTwitterDescription"></div>
-													<div id="ogTwitterurl-user-preview" class="ogTwitterURL"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+						</div>
+					<img src="http://oi67.tinypic.com/ap8dps.jpg" width="100%" style="margin-left: 1px">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
+
+
 <!-- EXTRAS -->
 <div class="row">
 	<div class="col-12 col-sm-5">
 		<div class="content-box">
 			<form id="user-input">
-					<hr class="my-4">
-					<h3>Extras</h3>
-
-					<p>As tags estão todas prontas?! Ótimo! Basta copiar o código apresentado no box ao lado e inserí-lo em sua página.</p>
-					<p>Agora vamos dar algumas dicas extras para ara continuar aprendendo sobre sua página, pois é muito importante observá-la de perto para trazer o público certo para vê-la.</p>
-
 					<div class="form-group">
 						<label for="" class="col-form-label">
 							ID do Google Analytics
@@ -722,6 +729,13 @@
 			</form>
 		</div>
 	</div> 
+	<div class="col-12 col-sm-7">
+		<h3>Extras</h3>
+
+		<p>As tags estão todas prontas?! Ótimo! Basta copiar o código apresentado no box ao lado e inserí-lo em sua página.</p>
+		<p>Agora vamos dar algumas dicas extras para ara continuar aprendendo sobre sua página, pois é muito importante observá-la de perto para trazer o público certo para vê-la.</p>
+
+	</div>
 </div>
 <!-- CODIGO GERADO -->	
 <div class="row">

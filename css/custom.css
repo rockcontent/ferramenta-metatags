@@ -188,6 +188,10 @@ label .material-icons:hover {
 	max-width: 527px;
 }
 
+.ogImage{
+	width: 100%;
+}
+
 .ogTwitter {
 	font-family: Helvetica, Arial;
 	font-size: 14px;
@@ -288,4 +292,22 @@ label .material-icons:hover {
 
 .ogHidden {
 	display: none;
+}
+
+#flutuando{
+	margin: auto;
+}
+
+#previa{
+	margin: auto;
+}
+
+#nopadding{
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.facebookgray{
+	background-color: #f2f3f5;
 }
