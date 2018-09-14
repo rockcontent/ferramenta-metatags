@@ -35,7 +35,7 @@
 
     <a class="navbar-brand" href="#">
       <!--<img src="img/rockcontent.png" alt="Rock Content" class="img-fluid" width="150px">-->
-      <img src="https://rockcontent.com/estilo/downloads/rockcontent-icone-cinza.svg" alt="Rock Content" class="logo img-fluid">
+      <img src="https://rockcontent.com/estilo/downloads/rockcontent-icone-cinza.svg" alt="Rock Content" class="logo img-fluid" style="display: inline-block">
       Gerador de Meta Tags
     </a>
 

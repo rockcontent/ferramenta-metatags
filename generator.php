@@ -5,11 +5,11 @@
 		<p>Vamos começar?</p>
 	</div>
 
-	
+
 </div>
 <!-- META TAGS -->
 <div class="row">
-	<div class="col-12 col-sm-5">
+	<div class="col-md-12 col-lg-5">
 		<div class="content-box">
 			<form id="user-input">
 				<div class="form-group">
@@ -389,7 +389,7 @@
 			</form>
 		</div>
 	</div>	
-	<div class="col-12 col-sm-7" id="">
+	<div class="col-md-12 col-lg-7" id="">
 		<h3>Meta Tags</h3>
 				<p>As <strong>Meta Tags</strong> são trechos de informação inseridos no código fonte de uma página. Elas são importantes formas de seu site e conteúdo serem expressos para os motores de busca, alavancando o SEO. Todas as suas páginas (todas!) devem ter essas tags personalizadas. Abaixo, temos as mais importantes que não podem faltar no seu site.</p>
 
@@ -404,8 +404,8 @@
 	</div>
 </div>
 <!-- OPEN GRAPH -->
-<div class="row" id="nopadding">
-	<div class="col-12 col-sm-5">
+<div class="row">
+	<div class="col-md-12 col-lg-5">
 		<div class="content-box">
 			<form id="user-input">
 				<div class="form-group">
@@ -593,38 +593,14 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="form-group">
-						<label for="exampleFormControlInput1" class="col-form-label">
-							Username do usuário
-							<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
-							<a data-toggle="collapse" href="#ttcreator" aria-expanded="false" aria-controls="ttcreator"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
-						</label>
-						<div>
-							<input type="text" class="form-control" id="ttcreator-input" placeholder="">
-
-							<div class="collapse" id="ttcreator">
-								<small id="titleHelp" class="form-text text-muted">
-									<p>
-										Seu ID de usuário no Twitter.
-										<br>
-										Ex: pecanha
-										<br>
-										<br>
-										Esse campo é <b>opcional</b>.
-									</p>
-								</small>
-							</div>
-						</div>
-					</div>
 			</form>
 		</div>
 	</div>
 	<!-- Facebook e Twitter Preview -->
-	<div class="col-12 col-sm-7" id="">	
+	<div class="col-md-12 col-lg-7" id="">	
 		<h3>Open Graph</h3>
 			<p>As tags Open Graph vão te permitir personalizar o que aparecerá no compartilhamento de mídias sociais como o Facebook, Twitter, LinkedIn, entre outras.</p>
-		<div id="og" class="card og mx-auto">
+		<div id="og" class="card og">
 			<div>
 				<div class="row" style="margin-bottom: 10px; padding-top: 10px; padding-left: 10px;">
 					<div class="col-2" style="padding-right: 0px;">
@@ -635,7 +611,7 @@
 							<strong>Breno Poggiali de Sousa</strong>
 						</div>
 						<div class="row">
-							Just now - Amsterdam, Netherlands
+							Agora - Cidade, País
 						</div>
 					</div>
 				</div>
@@ -643,25 +619,25 @@
 				<div>
 					<img id="ogimgUserPreview" class="ogImage" width="100%">
 				</div>
-				<div id="facebookgray" class="" style="padding-left: 10px; width: 100%;">
-					<div id="ogurl-user-preview" class="ogURL" style="text-transform: uppercase; color: #4b4f56"></div>
-					<div id="ogtitle-user-preview" class="ogTitle" style="font-weight: bold;"></div>
+				<div class="facebookgray" style="padding-left: 13px; width: 100%;">
+					<div id="ogurl-user-preview" class="ogURL" style="text-transform: uppercase; color: #606770; font-size: 13px; padding-top: 5px;"></div>
+					<div id="ogtitle-user-preview" class="ogTitle"></div>
 					<div id="ogdesc-user-preview" class="ogDescription"></div>
 				</div>
 				<img src="https://image.ibb.co/c4o7vK/curtidas_facebook.png" width="100%">
 			</div>
 		</div>
-		<div id="ogTwitter" class="card og mx-auto">
+		<div id="ogTwitter" class="card ogTwitter">
 			<div class="card-body" style="padding-top: 10px;">
 				<div class="row">
 					<div class="col-1" id="nopadding">
 						<!-- Imagem do Twitter -->
-						<img class="Avatar Avatar--edge" data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_normal.jpg" src="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_normal.jpg" style="border-radius: 50%;">
+						<img class="Avatar Avatar--edge"  data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_normal.jpg" src="https://pbs.twimg.com/profile_images/1013798240683266048/zRim1x6M_normal.jpg" style="border-radius: 50%;">
 					</div>
 					<div class="col-11">
 						<div class="row">
 							<div>&nbsp;&nbsp;&nbsp;
-								<strong>Twitter</strong> @Twitter • now
+								<strong>Twitter</strong> @Twitter • agora
 							</div>
 						</div>
 						<div class="ogTwitterText">Texto personalizável que acompanha o link da sua página. (Tweet até 140 caracteres)</div>
@@ -671,7 +647,7 @@
 									<img id="ogTwitterimgUserPreview" class="imgthumbnail">
 								</div>
 								<div class="" id="twitterpreview3">
-									<div class="card-body">
+									<div id="twitterpreview4" class="card-body" style="">
 										<div id="ogTwittertitle-user-preview" class="ogTwitterTitle"></div>
 										<div id="ogTwitterdesc-user-preview" class="ogTwitterDescription"></div>
 										<div id="ogTwitterurl-user-preview" class="ogTwitterURL"></div>
@@ -690,7 +666,7 @@
 
 <!-- EXTRAS -->
 <div class="row">
-	<div class="col-12 col-sm-5">
+	<div class="col-md-12 col-lg-5">
 		<div class="content-box">
 			<form id="user-input">
 					<div class="form-group">
@@ -729,7 +705,7 @@
 			</form>
 		</div>
 	</div> 
-	<div class="col-12 col-sm-7">
+	<div class="col-md-12 col-lg-7">
 		<h3>Extras</h3>
 
 		<p>As tags estão todas prontas?! Ótimo! Basta copiar o código apresentado no box ao lado e inserí-lo em sua página.</p>

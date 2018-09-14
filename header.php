@@ -14,14 +14,14 @@
 	<meta property="og:description" content="Saiba o que é necessário para ficar em primeiro lugar no Google! Conheça a ferramenta que te ajudará a preparar as meta tags de uma página otimizada para SEO."/>
 	<meta property="og:type" content="page"/>
 	<meta property="og:url" content="http://ferramentas.rockcontent.com/gerador-de-meta-tags/"/>
-	<meta property="og:image" content="url da imagem de og"/>
+	<meta property="og:image" content="https://rockcontent.com/ferramentas/gerador-de-metatags/img/materiais_facebook.png">
 
 	<!-- Twitter Card -->
-	<meta name="twitter:card" content="product">
+	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@rockcontent">
 	<meta name="twitter:title" content="O Gerador de Meta Tags, uma ferramenta Rock Content">
 	<meta name="twitter:description" content="Saiba o que é necessário para ficar em primeiro lugar no Google! Conheça a ferramenta que te ajudará a preparar as meta tags de uma página otimizada para SEO.">
-	<meta name="twitter:image" content="url da imagem pro twitter">
+	
 
 	<!-- Custom Plugins -->
 	<!-- SweetAlert -->
