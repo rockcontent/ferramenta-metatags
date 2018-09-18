@@ -186,6 +186,7 @@ label .material-icons:hover {
 .ogImage{
 	height: 270px;
 	width: 100%;
+	object-fit: cover;
 }
 
 .ogTwitter {
@@ -234,12 +235,15 @@ label .material-icons:hover {
 .imgthumbnail{
 	width: 125.42px;
     height: 125.42px;
+    border-width: 0px;
+    object-fit: cover;		
 }
 
-.img-fluid{
+.ogTwitterLargeImage{
 	display: block;
-	background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+	height: 254px;
     width: 100%;
+	object-fit: cover;
 }
 
 .ogTitle {

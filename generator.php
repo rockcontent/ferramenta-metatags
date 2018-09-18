@@ -641,13 +641,13 @@
 							</div>
 						</div>
 						<div class="ogTwitterText">Texto personalizável que acompanha o link da sua página. (Tweet até 140 caracteres)</div>
-						<div class="card" style="width: 100%;">
-							<div class="" id="twitterpreview1">
-								<div class="" id="twitterpreview2">
+						<div class="card" style="width: 100%; border-radius: 5px; overflow: hidden;">
+							<div class="row" id="twitterpreview1">
+								<div class="col-3" id="twitterpreview2">
 									<img id="ogTwitterimgUserPreview" class="imgthumbnail">
 								</div>
-								<div class="" id="twitterpreview3">
-									<div id="twitterpreview4" class="card-body" style="">
+								<div class="col-9" id="twitterpreview3">
+									<div id="twitterpreview4" class="card-body" style="padding: 0.7rem 1.25rem 1.25rem 5px !important;">
 										<div id="ogTwittertitle-user-preview" class="ogTwitterTitle"></div>
 										<div id="ogTwitterdesc-user-preview" class="ogTwitterDescription"></div>
 										<div id="ogTwitterurl-user-preview" class="ogTwitterURL"></div>

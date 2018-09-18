@@ -202,25 +202,17 @@ $(function() {
 		$('#ogTwitterurl-user-preview').html(url.hostname);
 	});
 
-	$("#twitterpreview2").hide();
+	$("#ogTwitterimgUserPreview").attr('src', 'img/TwitterNoImagePreview.png');
 	$('#ogimageInput').keyup(function() {
 		 if( $(this).val().length === 0 ) {
-		 	$("#twitterpreview2").hide();
-		 	$("#twitterpreview1").attr('class', '');
-			$("#twitterpreview2").attr('class', '');
-			$("#twitterpreview3").attr('class', '');
-			$("#twitterpreview4").attr('style', '');
+			$("#ogTwitterimgUserPreview").attr('src', 'img/TwitterNoImagePreview.png');
 		 }
 		 else{
-		 	$("#twitterpreview2").show();
-		 	$("#twitterpreview1").attr('class', 'row');
-			$("#twitterpreview2").attr('class', 'col-3');
-			$("#twitterpreview3").attr('class', 'col-9');
 			$("#twitterpreview4").attr('style', 'padding: 0.7rem 1.25rem 1.25rem 5px !important;');
+			var selecionada = $('#ogimageInput').val();
+	    	$('#ogTwitterimgUserPreview').attr("src", selecionada);
+			$('#ogTwitterimage-user').html($(this).val());
 		 }
-		var selecionada = $('#ogimageInput').val();
-    	$('#ogTwitterimgUserPreview').attr("src", selecionada);
-		$('#ogTwitterimage-user').html($(this).val());
 	});
 	$('#ogauthor-input').keyup(function() {
 		$('#ogTwitterauthor-user').html($(this).val());
@@ -241,21 +233,32 @@ $(function() {
 	$("#ttimage-code").hide();
 	$('#ttimage-check').change(function(){
 		var check = document.getElementById("ttimage-check").checked;
-		if (check) {
-			$("#ttimage-code").show();
-			$("#ogTwitterimgUserPreview").attr('class', 'img-fluid');
-			$("#twitterpreview4").attr('style', '');
-			$("#twitterpreview1").attr('class', '');
-			$("#twitterpreview2").attr('class', '');
-			$("#twitterpreview3").attr('class', '');
-		} else {
+		if( $('#ogimageInput').val().length === 0 ){
 			$("#ttimage-code").hide();
-			$("#ogTwitterimgUserPreview").attr('class', 'imgthumbnail');
-			$("#twitterpreview4").attr('style', 'padding: 0.7rem 1.25rem 1.25rem 5px !important;');
 			$("#twitterpreview1").attr('class', 'row');
 			$("#twitterpreview2").attr('class', 'col-3');
 			$("#twitterpreview3").attr('class', 'col-9');
-
+			$("#twitterpreview4").attr('style', 'padding: 0.7rem 1.25rem 1.25rem 5px !important;');
+			$("#ogTwitterimgUserPreview").attr('class', 'imgthumbnail');
+			$("#ogTwitterimgUserPreview").attr('src', 'img/TwitterNoImagePreview.png');
+		}
+		else {
+			if (check) {
+				$("#ttimage-code").show();
+				$("#ogTwitterimgUserPreview").attr('class', 'ogTwitterLargeImage');
+				$("#twitterpreview4").attr('style', '');
+				$("#twitterpreview1").attr('class', '');
+				$("#twitterpreview2").attr('class', '');
+				$("#twitterpreview3").attr('class', '');
+				$("#twitterpreview4").attr('style', '');
+			} else {
+				$("#ttimage-code").hide();
+				$("#ogTwitterimgUserPreview").attr('class', 'imgthumbnail');
+				$("#twitterpreview1").attr('class', 'row');
+				$("#twitterpreview2").attr('class', 'col-3');
+				$("#twitterpreview3").attr('class', 'col-9');
+				$("#twitterpreview4").attr('style', 'padding: 0.7rem 1.25rem 1.25rem 5px !important;');
+			}
 		}
 	});
 
